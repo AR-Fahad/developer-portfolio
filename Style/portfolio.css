@@ -73,6 +73,11 @@ nav a{
     margin-top: 0px;
     margin-bottom: 30px;
 }
+/* main related style */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .about{
     border-radius: 10px;
     background: #FFF8F3;
@@ -91,5 +96,38 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.info-tittle{
+    display: inline;
+}
+.info-description{
+    display: inline;
+    color: #757575;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 30px 0px;
+    margin-right: 20px;
+    padding: 30px;
+}
+.skill-description{
+    max-width: 200px;
+    max-height: 190px;
+    color: #757575;
 }
 
