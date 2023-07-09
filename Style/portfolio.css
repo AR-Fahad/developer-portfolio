@@ -167,3 +167,10 @@ main{
     font-weight: bolder;
     margin: 50px 480px;
 }
+/* footer related style */
+footer{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
