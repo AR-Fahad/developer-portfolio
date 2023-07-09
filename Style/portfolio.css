@@ -138,5 +138,32 @@ main{
 }
 .resume-container{
     display: flex;
+    gap: 50px;
 }
-
+.resume-item-tittle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-sub{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.resume-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#btn{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bolder;
+    margin: 50px 480px;
+}
